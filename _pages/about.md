@@ -37,7 +37,7 @@ My research interest includes natural language processing and AI4Science (especi
 
 **Jiawei Zhang**, Wang Ma, Hui Yao
 
-[**Project**](https://github.com/Freshwind-Bioinformatics/TABR-BERT) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**](https://github.com/Freshwind-Bioinformatics/TABR-BERT)|Briefings in Bioinformatics <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Optimize prediction performance on the TCR-pMHC binding task with limited data using BERT-based transfer learning. 
 </div>
 
@@ -47,8 +47,8 @@ My research interest includes natural language processing and AI4Science (especi
 
 Wang Ma, **Jiawei Zhang**, Hui Yao
 
-[**Project**](https://github.com/Freshwind-Bioinformatics/NeoMUST) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- We utilize an MOE architecture and adopt a multi-task learning approach to simultaneously leverage MS and BA data for predicting neoantigen presentation in cancer. 
+[**Project**](https://github.com/Freshwind-Bioinformatics/NeoMUST)|Life Science Alliance <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Utilize an MOE architecture and adopt a multi-task learning approach to simultaneously leverage MS and BA data for predicting neoantigen presentation in cancer. 
 
 <!-- </div> -->
 
@@ -57,10 +57,6 @@ Wang Ma, **Jiawei Zhang**, Hui Yao
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
