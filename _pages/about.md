@@ -60,5 +60,5 @@ Wang Ma, **Jiawei Zhang**, Hui Yao
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 💻 Internships
-- *2024.04 - present*, [HKUST](https://hkust.edu.hk/) advised by [Dr. Youzhi Zhang](https://scholar.google.com/citations?hl=en&user=i2j5DmwAAAAJ).
+- *2024.04 - Present*, [HKUST](https://hkust.edu.hk/) advised by [Dr. Youzhi Zhang](https://scholar.google.com/citations?hl=en&user=i2j5DmwAAAAJ).
 
