@@ -17,6 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# Welcome!
 I am currently a research assistant at [Westlake University](https://en.westlake.edu.cn/), [Dr. Fajie Yuan's Lab](https://github.com/westlake-repl). And the main work direction is AI4Science.
 
 I graduated from the School of Economics and Management of [Civil Aviation University of China](https://www.cauc.edu.cn/en/) in 2020.
@@ -37,7 +38,7 @@ My research interest includes natural language processing and AI4Science (especi
 
 **Jiawei Zhang**, Wang Ma, Hui Yao
 
-[**Project**](https://github.com/Freshwind-Bioinformatics/TABR-BERT)|Briefings in Bioinformatics <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**](https://github.com/Freshwind-Bioinformatics/TABR-BERT)|**Briefings in Bioinformatics** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Optimize prediction performance on the TCR-pMHC binding task with limited data using BERT-based transfer learning. 
 </div>
 
@@ -47,7 +48,7 @@ My research interest includes natural language processing and AI4Science (especi
 
 Wang Ma, **Jiawei Zhang**, Hui Yao
 
-[**Project**](https://github.com/Freshwind-Bioinformatics/NeoMUST)|Life Science Alliance <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**](https://github.com/Freshwind-Bioinformatics/NeoMUST)|**Life Science Alliance** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Utilize an MOE architecture and adopt a multi-task learning approach to simultaneously leverage MS and BA data for predicting neoantigen presentation in cancer. 
 
 <!-- </div> -->
@@ -58,9 +59,5 @@ Wang Ma, **Jiawei Zhang**, Hui Yao
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2024.04 - present*, [HKUST](https://hkust.edu.hk/).
