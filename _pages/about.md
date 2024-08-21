@@ -26,7 +26,7 @@ From 2022-2024, I worked with [Dr. Hui Yao](https://scholar.google.com/citations
 
 You can find my CV here: [Jiawei Zhang's Curriculum Vitae](../assets/jwzhang_CV.pdf)
 
-My research interest includes natural language processing and AI4Science (especially proteins and cancer).
+My research interest includes **natural language processing and AI4Science (especially proteins and cancer)**.
 
 
 # 📝 Publications 
@@ -60,4 +60,5 @@ Wang Ma, **Jiawei Zhang**, Hui Yao
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 💻 Internships
-- *2024.04 - present*, [HKUST](https://hkust.edu.hk/).
+- *2024.04 - present*, [HKUST](https://hkust.edu.hk/) advised by [Dr. Youzhi Zhang](https://scholar.google.com/citations?hl=en&user=i2j5DmwAAAAJ).
+
