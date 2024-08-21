@@ -56,8 +56,7 @@ Wang Ma, **Jiawei Zhang**, Hui Yao
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2017-2018* Renmin Third-Class Scholarship(Top 10%) 
 
 # 💻 Internships
 - *2024.04 - Present*, [HKUST](https://hkust.edu.hk/) advised by [Dr. Youzhi Zhang](https://scholar.google.com/citations?hl=en&user=i2j5DmwAAAAJ).
