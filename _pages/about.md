@@ -38,7 +38,7 @@ You can find my CV here: [Jiawei Zhang's Curriculum Vitae](../assets/jwzhang_CV.
 
 **Jiawei Zhang**, Wang Ma, Hui Yao
 
-[**Project**](https://github.com/Freshwind-Bioinformatics/TABR-BERT) | **Briefings in Bioinformatics** (IF=6.8\Q1)
+[**Project**](https://github.com/Freshwind-Bioinformatics/TABR-BERT)|**Briefings in Bioinformatics** (IF=6.8\Q1)
 
 <div class='paper-box-text' markdown="1">
 
@@ -46,21 +46,21 @@ You can find my CV here: [Jiawei Zhang's Curriculum Vitae](../assets/jwzhang_CV.
 
 Wang Ma, **Jiawei Zhang**, Hui Yao
 
-[**Project**](https://github.com/Freshwind-Bioinformatics/NeoMUST) | **Life Science Alliance** (IF=3.3\Q1)
+[**Project**](https://github.com/Freshwind-Bioinformatics/NeoMUST)|**Life Science Alliance** (IF=3.3\Q1)
 
 # 🖥️ Project
 
 **An LLM-based biological agent**
 
-*Developer and researcher, supervised by Prof. [Fajie Yuan](https://fajieyuan.github.io/)*
+Developer and researcher, supervised by Prof. [Fajie Yuan](https://fajieyuan.github.io/)
 
 - Design and develop an LLM-based agent system that automatically executes corresponding AI  models and bioinformatic tools based on the user's needs. 
 
 
 
-**[SaprotHub: Making Protein Modeling Accessible to All Biologists](https://www.biorxiv.org/content/10.1101/2024.05.24.595648v3) ** | [github repository]([westlake-repl/SaprotHub: SaprotHub: Making Protein Modeling Accessible to All Biologists (github.com)](https://github.com/westlake-repl/SaprotHub))
+**[SaprotHub: Making Protein Modeling Accessible to All Biologists](https://www.biorxiv.org/content/10.1101/2024.05.24.595648v3) **|[github repository]([westlake-repl/SaprotHub: SaprotHub: Making Protein Modeling Accessible to All Biologists (github.com)](https://github.com/westlake-repl/SaprotHub))
 
-*Assistant Developer, supervised by Prof. [Fajie Yuan](https://fajieyuan.github.io/)*
+Assistant Developer, supervised by Prof. [Fajie Yuan](https://fajieyuan.github.io/)
 
 - Developed ColabSaprot and SaprotHub to support scientific research, allowing biologists to easily train and use Protein Language Models. SaprotHub is widely used for protein-related tasks, with wet lab experiments validating its results.
 
@@ -68,13 +68,13 @@ Wang Ma, **Jiawei Zhang**, Hui Yao
 
 **An LLM-based web3 agent**
 
-*Researcher, supervised by Prof. [Youzhi Zhang](https://scholar.google.com/citations?hl=en&user=i2j5DmwAAAAJ).](https://fajieyuan.github.io/)*
+Researcher, supervised by Prof. [Youzhi Zhang](https://scholar.google.com/citations?hl=en&user=i2j5DmwAAAAJ).
 
 - Design an agent that can decompose user requirements and then select and execute the appropriate  tool for each step of the task.
 
   
 
-**TCR-pMHC Binding prediction base on transfer learning** | [github repository](https://github.com/Freshwind-Bioinformatics/TABR-BERT)
+**TCR-pMHC Binding prediction base on transfer learning**|[github repository](https://github.com/Freshwind-Bioinformatics/TABR-BERT)
 
 Developer and researcher, supervised by Dr. [Hui Yao](https://scholar.google.com/citations?user=LlcLoysAAAAJ)
 
@@ -82,7 +82,7 @@ Developer and researcher, supervised by Dr. [Hui Yao](https://scholar.google.com
 
 
 
-**Neoantigens identification base on multi-task learning** | [github repository]([Freshwind-Bioinformatics/NeoMUST: NeoMUST: an Accurate and Efficient Multi-Task Learning Model for Neoantigen Presentation (github.com)](https://github.com/Freshwind-Bioinformatics/NeoMUST))
+**Neoantigens identification base on multi-task learning**|[github repository]([Freshwind-Bioinformatics/NeoMUST: NeoMUST: an Accurate and Efficient Multi-Task Learning Model for Neoantigen Presentation (github.com)](https://github.com/Freshwind-Bioinformatics/NeoMUST))
 
 Developer and researcher, supervised by Dr. [Hui Yao](https://scholar.google.com/citations?user=LlcLoysAAAAJ)
 
