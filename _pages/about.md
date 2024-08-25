@@ -51,6 +51,8 @@ Wang Ma, **Jiawei Zhang**, Hui Yao
 
 🔗[**Github repository**](https://github.com/Freshwind-Bioinformatics/NeoMUST) **Life Science Alliance** (IF=3.3\Q1)
 
+
+
 # 🖥️ Project
 
 **ProtAgent: An LLM-based biological agent**
@@ -93,10 +95,15 @@ Developer and researcher, supervised by Dr. [Hui Yao](https://scholar.google.com
 
   
 
+
+
 # 🎖 Honors and Awards
 
 - *2017-2018* Renmin Third-Class Scholarship 
 
+
+
 # 💻 Internships
+
 - *2024.04 - Present*, [HKUST](https://hkust.edu.hk/) advised by Prof. [Youzhi Zhang](https://scholar.google.com/citations?hl=en&user=i2j5DmwAAAAJ).
 
