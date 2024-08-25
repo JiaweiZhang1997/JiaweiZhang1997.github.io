@@ -45,7 +45,6 @@ You can find my CV here: [Jiawei Zhang's Curriculum Vitae](../assets/jwzhang_CV.
 
 
 
-
 [NeoMUST: an Accurate and Efficient Multi-Task Learning Model for Neoantigen](https://www.life-science-alliance.org/content/7/4/e202302255)
 
 Wang Ma, **Jiawei Zhang**, Hui Yao
@@ -76,7 +75,7 @@ Researcher, supervised by Prof. [Youzhi Zhang](https://scholar.google.com/citati
 
 - Design an agent that can decompose user requirements and then select and execute the appropriate  tool for each step of the task.
 
-  
+
 
 **TCR-pMHC Binding prediction base on transfer learning** [github repository](https://github.com/Freshwind-Bioinformatics/TABR-BERT)
 
