@@ -35,12 +35,11 @@ You can find my CV here: [Jiawei Zhang's Curriculum Vitae](../assets/jwzhang_CV.
 
 <div class='paper-box-text' markdown="1">
 [TABR-BERT: an Accurate and Robust BERT-based Transfer Learning Model for TCR-pMHC Interaction Prediction](https://academic.oup.com/bib/article/25/1/bbad436/7457349)
-
 **Jiawei Zhang**, Wang Ma, Hui Yao
 
 [**Project**](https://github.com/Freshwind-Bioinformatics/TABR-BERT) **Briefings in Bioinformatics** (IF=6.8\Q1)
 
-
+**`<br/>`**
 
 
 [NeoMUST: an Accurate and Efficient Multi-Task Learning Model for Neoantigen](https://www.life-science-alliance.org/content/7/4/e202302255)
@@ -59,7 +58,7 @@ Developer and researcher, supervised by Prof. [Fajie Yuan](https://fajieyuan.git
 
 
 
-**[SaprotHub: Making Protein Modeling Accessible to All Biologists](https://www.biorxiv.org/content/10.1101/2024.05.24.595648v3) ** [github repository]([westlake-repl/SaprotHub: SaprotHub: Making Protein Modeling Accessible to All Biologists (github.com)](https://github.com/westlake-repl/SaprotHub))
+[SaprotHub: Making Protein Modeling Accessible to All Biologists](https://www.biorxiv.org/content/10.1101/2024.05.24.595648v3)  [github repository]([westlake-repl/SaprotHub: SaprotHub: Making Protein Modeling Accessible to All Biologists (github.com)](https://github.com/westlake-repl/SaprotHub))
 
 Assistant Developer, supervised by Prof. [Fajie Yuan](https://fajieyuan.github.io/)
 
