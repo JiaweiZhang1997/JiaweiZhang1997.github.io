@@ -53,7 +53,7 @@ Wang Ma, **Jiawei Zhang**, Hui Yao
 
 # 🖥️ Project
 
-**An LLM-based biological agent**
+**ProtAgent: An LLM-based biological agent**
 
 Developer and researcher, supervised by Prof. [Fajie Yuan](https://fajieyuan.github.io/)
 
@@ -61,7 +61,7 @@ Developer and researcher, supervised by Prof. [Fajie Yuan](https://fajieyuan.git
 
 
 
-[SaprotHub: Making Protein Modeling Accessible to All Biologists](https://www.biorxiv.org/content/10.1101/2024.05.24.595648v3)  [github repository]([westlake-repl/SaprotHub: SaprotHub: Making Protein Modeling Accessible to All Biologists (github.com)](https://github.com/westlake-repl/SaprotHub))
+**SaprotHub: Making Protein Modeling Accessible to All Biologists**  [github repository]([westlake-repl/SaprotHub: SaprotHub: Making Protein Modeling Accessible to All Biologists (github.com)](https://github.com/westlake-repl/SaprotHub))
 
 Assistant Developer, supervised by Prof. [Fajie Yuan](https://fajieyuan.github.io/)
 
