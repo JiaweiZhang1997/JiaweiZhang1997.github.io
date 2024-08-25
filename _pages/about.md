@@ -24,24 +24,21 @@ I graduated from the School of Economics and Management of [Civil Aviation Unive
 
 From 2022-2024, I worked with Dr. [Hui Yao](https://scholar.google.com/citations?user=LlcLoysAAAAJ) at [Fresh Wind Biotechnologies, Inc.](https://www.freshwindbiotech.com/) and was mainly responsible for algorithm development for cellular immunotherapy. 
 
-You can find my CV here: [Jiawei Zhang's Curriculum Vitae](../assets/jwzhang_CV.pdf)
-
 My research interest includes **natural language processing and AI4Science (especially proteins and cancer)**.
+
+You can find my CV here: [Jiawei Zhang's Curriculum Vitae](../assets/jwzhang_CV.pdf)
 
 
 # 📝 Publications 
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div> -->
-<div class='paper-box-text' markdown="1">
 
+<div class='paper-box-text' markdown="1">
 [TABR-BERT: an Accurate and Robust BERT-based Transfer Learning Model for TCR-pMHC Interaction Prediction](https://academic.oup.com/bib/article/25/1/bbad436/7457349)
 
 **Jiawei Zhang**, Wang Ma, Hui Yao
 
-[**Project**](https://github.com/Freshwind-Bioinformatics/TABR-BERT)|**Briefings in Bioinformatics** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-
-- Optimize prediction performance on the TCR-pMHC binding task with limited data using BERT-based transfer learning. 
-</div>
+[**Project**](https://github.com/Freshwind-Bioinformatics/TABR-BERT) | **Briefings in Bioinformatics** (IF=6.8\Q1)
 
 <div class='paper-box-text' markdown="1">
 
@@ -49,13 +46,7 @@ My research interest includes **natural language processing and AI4Science (espe
 
 Wang Ma, **Jiawei Zhang**, Hui Yao
 
-[**Project**](https://github.com/Freshwind-Bioinformatics/NeoMUST)|**Life Science Alliance** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-
-- Utilize an MOE architecture and adopt a multi-task learning approach to simultaneously leverage MS and BA data for predicting neoantigen presentation in cancer. 
-
-<!-- </div> -->
-
-<!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
+[**Project**](https://github.com/Freshwind-Bioinformatics/NeoMUST) | **Life Science Alliance** (IF=3.3\Q1)
 
 # 🖥️ Project
 
