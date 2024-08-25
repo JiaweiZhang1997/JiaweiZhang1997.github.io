@@ -77,7 +77,7 @@ Researcher, supervised by Prof. [Youzhi Zhang](https://scholar.google.com/citati
 
 
 
-**TCR-pMHC Binding prediction base on transfer learning** [github repository](https://github.com/Freshwind-Bioinformatics/TABR-BERT)
+**TABR-BERT: TCR-pMHC Binding prediction base on transfer learning** [github repository](https://github.com/Freshwind-Bioinformatics/TABR-BERT)
 
 Developer and researcher, supervised by Dr. [Hui Yao](https://scholar.google.com/citations?user=LlcLoysAAAAJ)
 
@@ -85,7 +85,7 @@ Developer and researcher, supervised by Dr. [Hui Yao](https://scholar.google.com
 
 
 
-**Neoantigens identification base on multi-task learning** [github repository]([Freshwind-Bioinformatics/NeoMUST: NeoMUST: an Accurate and Efficient Multi-Task Learning Model for Neoantigen Presentation (github.com)](https://github.com/Freshwind-Bioinformatics/NeoMUST))
+**NeoMUST: Neoantigens identification base on multi-task learning** [github repository]([Freshwind-Bioinformatics/NeoMUST: NeoMUST: an Accurate and Efficient Multi-Task Learning Model for Neoantigen Presentation (github.com)](https://github.com/Freshwind-Bioinformatics/NeoMUST))
 
 Developer and researcher, supervised by Dr. [Hui Yao](https://scholar.google.com/citations?user=LlcLoysAAAAJ)
 
