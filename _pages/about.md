@@ -18,11 +18,11 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # Welcome!
-I am currently a research assistant at [Westlake University](https://en.westlake.edu.cn/), [Dr. Fajie Yuan's Lab](https://github.com/westlake-repl). And the main work direction is AI4Science.
+I am currently a research assistant at [Westlake University](https://en.westlake.edu.cn/), Prof. [Fajie Yuan's Lab](https://github.com/westlake-repl). And the main work direction is AI4Science.
 
 I graduated from the School of Economics and Management of [Civil Aviation University of China](https://www.cauc.edu.cn/en/) in 2020.
 
-From 2022-2024, I worked with [Dr. Hui Yao](https://scholar.google.com/citations?user=LlcLoysAAAAJ) at [Fresh Wind Biotechnologies, Inc.](https://www.freshwindbiotech.com/) and was mainly responsible for algorithm development for cellular immunotherapy. 
+From 2022-2024, I worked with Dr. [Hui Yao](https://scholar.google.com/citations?user=LlcLoysAAAAJ) at [Fresh Wind Biotechnologies, Inc.](https://www.freshwindbiotech.com/) and was mainly responsible for algorithm development for cellular immunotherapy. 
 
 You can find my CV here: [Jiawei Zhang's Curriculum Vitae](../assets/jwzhang_CV.pdf)
 
@@ -39,6 +39,7 @@ My research interest includes **natural language processing and AI4Science (espe
 **Jiawei Zhang**, Wang Ma, Hui Yao
 
 [**Project**](https://github.com/Freshwind-Bioinformatics/TABR-BERT)|**Briefings in Bioinformatics** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
 - Optimize prediction performance on the TCR-pMHC binding task with limited data using BERT-based transfer learning. 
 </div>
 
@@ -49,15 +50,59 @@ My research interest includes **natural language processing and AI4Science (espe
 Wang Ma, **Jiawei Zhang**, Hui Yao
 
 [**Project**](https://github.com/Freshwind-Bioinformatics/NeoMUST)|**Life Science Alliance** <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
 - Utilize an MOE architecture and adopt a multi-task learning approach to simultaneously leverage MS and BA data for predicting neoantigen presentation in cancer. 
 
 <!-- </div> -->
 
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
+# 🖥️ Project
+
+**An LLM-based biological agent**
+
+*Developer and researcher, supervised by Prof. [Fajie Yuan](https://fajieyuan.github.io/)*
+
+- Design and develop an LLM-based agent system that automatically executes corresponding AI  models and bioinformatic tools based on the user's needs. 
+
+
+
+**[SaprotHub: Making Protein Modeling Accessible to All Biologists](https://www.biorxiv.org/content/10.1101/2024.05.24.595648v3) ** | [github repository]([westlake-repl/SaprotHub: SaprotHub: Making Protein Modeling Accessible to All Biologists (github.com)](https://github.com/westlake-repl/SaprotHub))
+
+*Assistant Developer, supervised by Prof. [Fajie Yuan](https://fajieyuan.github.io/)*
+
+- Developed ColabSaprot and SaprotHub to support scientific research, allowing biologists to easily train and use Protein Language Models. SaprotHub is widely used for protein-related tasks, with wet lab experiments validating its results.
+
+
+
+**An LLM-based web3 agent**
+
+*Researcher, supervised by Prof. [Youzhi Zhang](https://scholar.google.com/citations?hl=en&user=i2j5DmwAAAAJ).](https://fajieyuan.github.io/)*
+
+- Design an agent that can decompose user requirements and then select and execute the appropriate  tool for each step of the task.
+
+  
+
+**TCR-pMHC Binding prediction base on transfer learning** | [github repository](https://github.com/Freshwind-Bioinformatics/TABR-BERT)
+
+Developer and researcher, supervised by Dr. [Hui Yao](https://scholar.google.com/citations?user=LlcLoysAAAAJ)
+
+- Predict the binding of TCR peptide-MHC-1 complexes by BERT-based deep learning model with  transfer learning.
+
+
+
+**Neoantigens identification base on multi-task learning** | [github repository]([Freshwind-Bioinformatics/NeoMUST: NeoMUST: an Accurate and Efficient Multi-Task Learning Model for Neoantigen Presentation (github.com)](https://github.com/Freshwind-Bioinformatics/NeoMUST))
+
+Developer and researcher, supervised by Dr. [Hui Yao](https://scholar.google.com/citations?user=LlcLoysAAAAJ)
+
+- Accurate identification of neoantigens by multi-task learning architecture with LSTM as the feature  extractor.
+
+  
+
 # 🎖 Honors and Awards
-- *2017-2018* Renmin Third-Class Scholarship (Top 10%) 
+
+- *2017-2018* Renmin Third-Class Scholarship 
 
 # 💻 Internships
-- *2024.04 - Present*, [HKUST](https://hkust.edu.hk/) advised by [Dr. Youzhi Zhang](https://scholar.google.com/citations?hl=en&user=i2j5DmwAAAAJ).
+- *2024.04 - Present*, [HKUST](https://hkust.edu.hk/) advised by Prof. [Youzhi Zhang](https://scholar.google.com/citations?hl=en&user=i2j5DmwAAAAJ).
 
