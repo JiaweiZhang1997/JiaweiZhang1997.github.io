@@ -37,7 +37,7 @@ You can find my CV here: [Jiawei Zhang's Curriculum Vitae](../assets/jwzhang_CV.
 
 **Jiawei Zhang**, Wang Ma, Hui Yao
 
-🔗[**Project**](https://github.com/Freshwind-Bioinformatics/TABR-BERT) **Briefings in Bioinformatics** (IF=6.8\Q1)
+🔗[**Github repository**](https://github.com/Freshwind-Bioinformatics/TABR-BERT) **Briefings in Bioinformatics** (IF=6.8\Q1)
 
 
 
@@ -49,7 +49,7 @@ You can find my CV here: [Jiawei Zhang's Curriculum Vitae](../assets/jwzhang_CV.
 
 Wang Ma, **Jiawei Zhang**, Hui Yao
 
-🔗[**Project**](https://github.com/Freshwind-Bioinformatics/NeoMUST) **Life Science Alliance** (IF=3.3\Q1)
+🔗[**Github repository**](https://github.com/Freshwind-Bioinformatics/NeoMUST) **Life Science Alliance** (IF=3.3\Q1)
 
 # 🖥️ Project
 
@@ -61,7 +61,7 @@ Developer and researcher, supervised by Prof. [Fajie Yuan](https://fajieyuan.git
 
 
 
-**SaprotHub: Making Protein Modeling Accessible to All Biologists** 🔗 [github repository]([westlake-repl/SaprotHub: SaprotHub: Making Protein Modeling Accessible to All Biologists (github.com)](https://github.com/westlake-repl/SaprotHub))
+**SaprotHub: Making Protein Modeling Accessible to All Biologists** 🔗 [Github repository]([westlake-repl/SaprotHub: SaprotHub: Making Protein Modeling Accessible to All Biologists (github.com)](https://github.com/westlake-repl/SaprotHub))
 
 Assistant Developer, supervised by Prof. [Fajie Yuan](https://fajieyuan.github.io/)
 
@@ -77,7 +77,7 @@ Researcher, supervised by Prof. [Youzhi Zhang](https://scholar.google.com/citati
 
 
 
-**TABR-BERT: TCR-pMHC Binding prediction base on transfer learning** 🔗[github repository](https://github.com/Freshwind-Bioinformatics/TABR-BERT)
+**TABR-BERT: TCR-pMHC Binding prediction base on transfer learning** 🔗[Github repository](https://github.com/Freshwind-Bioinformatics/TABR-BERT)
 
 Developer and researcher, supervised by Dr. [Hui Yao](https://scholar.google.com/citations?user=LlcLoysAAAAJ)
 
@@ -85,7 +85,7 @@ Developer and researcher, supervised by Dr. [Hui Yao](https://scholar.google.com
 
 
 
-**NeoMUST: Neoantigens identification base on multi-task learning** 🔗[github repository]([Freshwind-Bioinformatics/NeoMUST: NeoMUST: an Accurate and Efficient Multi-Task Learning Model for Neoantigen Presentation (github.com)](https://github.com/Freshwind-Bioinformatics/NeoMUST))
+**NeoMUST: Neoantigens identification base on multi-task learning** 🔗[Github repository]([Freshwind-Bioinformatics/NeoMUST: NeoMUST: an Accurate and Efficient Multi-Task Learning Model for Neoantigen Presentation (github.com)](https://github.com/Freshwind-Bioinformatics/NeoMUST))
 
 Developer and researcher, supervised by Dr. [Hui Yao](https://scholar.google.com/citations?user=LlcLoysAAAAJ)
 
