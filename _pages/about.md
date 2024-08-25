@@ -37,11 +37,7 @@ You can find my CV here: [Jiawei Zhang's Curriculum Vitae](../assets/jwzhang_CV.
 
 **Jiawei Zhang**, Wang Ma, Hui Yao
 
-🔗[**Github repository**](https://github.com/Freshwind-Bioinformatics/TABR-BERT) **Briefings in Bioinformatics** (IF=6.8\Q1)
-
-
-
-<br/>
+- 🔗[**Github repository**](https://github.com/Freshwind-Bioinformatics/TABR-BERT) **Briefings in Bioinformatics** (IF=6.8\Q1)
 
 
 
@@ -49,7 +45,9 @@ You can find my CV here: [Jiawei Zhang's Curriculum Vitae](../assets/jwzhang_CV.
 
 Wang Ma, **Jiawei Zhang**, Hui Yao
 
-🔗[**Github repository**](https://github.com/Freshwind-Bioinformatics/NeoMUST) **Life Science Alliance** (IF=3.3\Q1)
+- 🔗[**Github repository**](https://github.com/Freshwind-Bioinformatics/NeoMUST) **Life Science Alliance** (IF=3.3\Q1)
+
+
 
 
 
