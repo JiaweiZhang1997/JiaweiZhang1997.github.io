@@ -103,5 +103,5 @@ Developer and researcher, supervised by Dr. [Hui Yao](https://scholar.google.com
 
 # 💻 Internships
 
-- *2024.04 - Present*, [HKUST](https://hkust.edu.hk/) advised by Prof. [Youzhi Zhang](https://scholar.google.com/citations?hl=en&user=i2j5DmwAAAAJ).
+- *2024.04 - 2024.09*, [HKUST](https://hkust.edu.hk/) advised by Prof. [Youzhi Zhang](https://scholar.google.com/citations?hl=en&user=i2j5DmwAAAAJ).
 
