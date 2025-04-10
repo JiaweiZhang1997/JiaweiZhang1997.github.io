@@ -52,6 +52,12 @@ Wang Ma, **Jiawei Zhang**, Hui Yao
 
 
 # 🖥️ Project
+**ProteinChat: LLM-based protein function annotation**
+
+Developer and researcher, supervised by Prof. [Fajie Yuan](https://fajieyuan.github.io/)
+
+- Develop a chatbot that can map from protein sequence and structure to function through test-time scaling based on motifs, GO terms, and other features.
+
 
 **ProtAgent: An LLM-based biological agent**
 
