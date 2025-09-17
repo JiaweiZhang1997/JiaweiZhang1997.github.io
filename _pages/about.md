@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # Welcome!
-I am currently a research assistant at [Westlake University](https://en.westlake.edu.cn/), Prof. [Fajie Yuan's Lab](https://github.com/westlake-repl). And the main work direction is AI4Science.
+I am currently a research assistant at [Westlake University](https://en.westlake.edu.cn/), Prof. [Yajie Wang's Lab](https://www.westlake.edu.cn/faculty/yajie-wang.html). And the main work direction is AI4Science and Enzyme mining.
 
 I graduated from the School of Economics and Management of [Civil Aviation University of China](https://www.cauc.edu.cn/en/) in 2020.
 
