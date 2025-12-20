@@ -55,7 +55,7 @@ Kai Zhuang§, **Jiawei Zhang§**, et al.
 
 - 🔗[**Github repository**](https://github.com/opendatalab-raiser/CoKE) **arXiv 2025**
 
-In submission to International Conference on Learning Representations
+- In submission to International Conference on Learning Representations
 
 
 
