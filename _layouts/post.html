@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="blog-shell">
+    <header class="blog-masthead">
+      <div class="blog-masthead__inner">
+        <a class="blog-brand" href="{{ '/blog/' | relative_url }}" target="_self">Jiawei's Log</a>
+        <nav class="blog-nav" aria-label="Blog navigation">
+          <a href="{{ '/blog/' | relative_url }}" target="_self">Posts</a>
+          <a href="{{ '/blog/archive/' | relative_url }}" target="_self">Archive</a>
+          <a href="{{ '/blog/search/' | relative_url }}" target="_self">Search</a>
+          <a href="{{ '/blog/tags/' | relative_url }}" target="_self">Tags</a>
+          <a href="{{ '/blog/faq/' | relative_url }}" target="_self">FAQ</a>
+          <a href="{{ '/' | relative_url }}" target="_self">Home</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="blog-main blog-main--article" id="main" role="main">
+      <article class="blog-article">
+        <a class="blog-back" href="{{ '/blog/' | relative_url }}" target="_self">Back to posts</a>
+        <h1>{{ page.title }}</h1>
+        <p class="blog-post-meta">
+          {{ page.date | date: "%B %-d, %Y" }}
+          {% if page.reading_time %} | Estimated Reading Time: {{ page.reading_time }}{% endif %}
+          {% if page.author %} | Author: {{ page.author }}{% endif %}
+        </p>
+        <div class="blog-article__content">
+          {{ content }}
+        </div>
+        {% if page.tags %}
+          <div class="blog-tag-row">
+            {% for tag in page.tags %}
+              {% assign tag_slug = tag | slugify %}
+              <a href="{{ '/blog/tags/' | relative_url }}#{{ tag_slug }}" target="_self">#{{ tag }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </article>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="blog-shell">
+    <header class="blog-masthead">
+      <div class="blog-masthead__inner">
+        <a class="blog-brand" href="{{ '/blog/' | relative_url }}" target="_self">Jiawei's Log</a>
+        <nav class="blog-nav" aria-label="Blog navigation">
+          <a href="{{ '/blog/' | relative_url }}" target="_self">Posts</a>
+          <a href="{{ '/blog/archive/' | relative_url }}" target="_self">Archive</a>
+          <a href="{{ '/blog/search/' | relative_url }}" target="_self">Search</a>
+          <a href="{{ '/blog/tags/' | relative_url }}" target="_self">Tags</a>
+          <a href="{{ '/blog/faq/' | relative_url }}" target="_self">FAQ</a>
+          <a href="{{ '/' | relative_url }}" target="_self">Home</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="blog-main" id="main" role="main">
+      {{ content }}
+    </main>
+  </body>
+</html>
