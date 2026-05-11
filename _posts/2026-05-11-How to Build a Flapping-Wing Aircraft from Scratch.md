@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Demo: Blog Style System"
+title: "How to Build a Flapping-Wing Aircraft from Scratch"
 subtitle: "A single post that exercises headings, prose, callouts, code blocks, tables, lists, math, and tags."
 date: 2026-05-11 00:30:00 +0800
 author: Jiawei Zhang

@@ -210,7 +210,6 @@ h1:before, .anchor:before {
 }
 
 .blog-theme-toggle svg {
-    position: absolute;
     width: 1.1rem;
     height: 1.1rem;
     fill: none;
@@ -218,27 +217,23 @@ h1:before, .anchor:before {
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 2;
-    transition: opacity 160ms ease, transform 160ms ease;
+    transition: transform 160ms ease;
 }
 
 .blog-theme-toggle__sun {
-    opacity: 0;
-    transform: scale(0.68) rotate(-35deg);
+    display: none;
 }
 
 .blog-theme-toggle__moon {
-    opacity: 1;
-    transform: scale(1) rotate(0);
+    display: block;
 }
 
 .blog-theme-dark .blog-theme-toggle__sun {
-    opacity: 1;
-    transform: scale(1) rotate(0);
+    display: block;
 }
 
 .blog-theme-dark .blog-theme-toggle__moon {
-    opacity: 0;
-    transform: scale(0.68) rotate(35deg);
+    display: none;
 }
 
 .blog-shell #main.blog-main {

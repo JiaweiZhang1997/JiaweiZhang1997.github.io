@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Demo: Blog Style System"
+title: "The dynamic mechanism of TCR-pMHC——A Beginner's Study Notes"
 subtitle: "A single post that exercises headings, prose, callouts, code blocks, tables, lists, math, and tags."
 date: 2026-05-11 00:30:00 +0800
 author: Jiawei Zhang

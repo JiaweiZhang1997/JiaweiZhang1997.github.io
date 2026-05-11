@@ -1,0 +1,46 @@
+<script>
+  (function() {
+    var themeKey = "blog-theme";
+    var root = document.documentElement;
+    var body = document.body;
+    var button = document.querySelector(".blog-theme-toggle");
+
+    function getSavedTheme() {
+      try {
+        return localStorage.getItem(themeKey);
+      } catch (error) {
+        return null;
+      }
+    }
+
+    function saveTheme(theme) {
+      try {
+        localStorage.setItem(themeKey, theme);
+      } catch (error) {
+        return;
+      }
+    }
+
+    function applyTheme(theme) {
+      var isDark = theme === "dark";
+      root.classList.toggle("blog-theme-dark", isDark);
+      if (body) {
+        body.classList.toggle("blog-theme-dark", isDark);
+      }
+      if (button) {
+        button.setAttribute("aria-pressed", String(isDark));
+        button.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
+      }
+    }
+
+    applyTheme(getSavedTheme() === "dark" ? "dark" : "light");
+
+    if (button) {
+      button.addEventListener("click", function() {
+        var nextTheme = root.classList.contains("blog-theme-dark") ? "light" : "dark";
+        applyTheme(nextTheme);
+        saveTheme(nextTheme);
+      });
+    }
+  })();
+</script>
