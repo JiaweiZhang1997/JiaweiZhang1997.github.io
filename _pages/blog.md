@@ -15,7 +15,6 @@ title: "Blog"
   <div class="blog-hero-panel" aria-label="Blog summary">
     <span>{{ site.posts | size }}</span>
     <p>published notes</p>
-    <a href="{{ '/feed.xml' | relative_url }}" target="_self">RSS feed</a>
   </div>
 </section>
 
