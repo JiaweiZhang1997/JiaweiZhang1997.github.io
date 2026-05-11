@@ -134,6 +134,7 @@ h1:before, .anchor:before {
 }
 
 .blog-masthead__inner {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -182,6 +183,62 @@ h1:before, .anchor:before {
 .blog-nav a:hover {
     color: #17211e;
     border-color: #2f7f6f;
+}
+
+.blog-theme-toggle {
+    position: relative;
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    padding: 0;
+    color: #2f7f6f;
+    background: rgba(255, 255, 255, 0.68);
+    border: 1px solid rgba(31, 39, 36, 0.12);
+    border-radius: 999px;
+    box-shadow: 0 8px 22px rgba(31, 39, 36, 0.08);
+    cursor: pointer;
+    transition: color 160ms ease, background 160ms ease, border-color 160ms ease, transform 160ms ease;
+}
+
+.blog-theme-toggle:hover {
+    transform: translateY(-1px);
+    color: #174d43;
+    border-color: rgba(47, 127, 111, 0.3);
+}
+
+.blog-theme-toggle svg {
+    position: absolute;
+    width: 1.1rem;
+    height: 1.1rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+    transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.blog-theme-toggle__sun {
+    opacity: 0;
+    transform: scale(0.68) rotate(-35deg);
+}
+
+.blog-theme-toggle__moon {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+}
+
+.blog-theme-dark .blog-theme-toggle__sun {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+}
+
+.blog-theme-dark .blog-theme-toggle__moon {
+    opacity: 0;
+    transform: scale(0.68) rotate(35deg);
 }
 
 .blog-shell #main.blog-main {
@@ -633,6 +690,181 @@ h1:before, .anchor:before {
     color: #666;
 }
 
+.blog-theme-dark .blog-shell {
+    background:
+        linear-gradient(180deg, rgba(19, 45, 42, 0.92) 0, rgba(10, 15, 18, 0) 22rem),
+        #0a0f12;
+    color: #dce8e4;
+}
+
+.blog-theme-dark .blog-masthead {
+    background: rgba(10, 15, 18, 0.86);
+    border-bottom-color: rgba(220, 232, 228, 0.08);
+}
+
+.blog-theme-dark .blog-brand,
+.blog-theme-dark .blog-hero h1,
+.blog-theme-dark .blog-section-head h1,
+.blog-theme-dark .blog-section-head h2,
+.blog-theme-dark .blog-article h1,
+.blog-theme-dark .blog-card h2,
+.blog-theme-dark .blog-archive h2,
+.blog-theme-dark .blog-tags h2,
+.blog-theme-dark .blog-faq h2,
+.blog-theme-dark .blog-archive a,
+.blog-theme-dark .blog-tags a,
+.blog-theme-dark .blog-article__content h2,
+.blog-theme-dark .blog-article__content h3 {
+    color: #f4fbf8;
+}
+
+.blog-theme-dark .blog-brand:after {
+    background: #ffd166;
+}
+
+.blog-theme-dark .blog-nav a,
+.blog-theme-dark .blog-hero p,
+.blog-theme-dark .blog-section-head p,
+.blog-theme-dark .blog-card p,
+.blog-theme-dark .blog-post-meta,
+.blog-theme-dark .blog-article__subtitle,
+.blog-theme-dark .blog-faq,
+.blog-theme-dark .blog-archive li,
+.blog-theme-dark .blog-tags li,
+.blog-theme-dark .blog-archive time,
+.blog-theme-dark .blog-tags span,
+.blog-theme-dark .blog-back,
+.blog-theme-dark .blog-empty {
+    color: #9eb1ac;
+}
+
+.blog-theme-dark .blog-nav a:hover,
+.blog-theme-dark .blog-back:hover,
+.blog-theme-dark .blog-article__content a {
+    color: #8dd7c8;
+}
+
+.blog-theme-dark .blog-nav a:hover {
+    border-color: #8dd7c8;
+}
+
+.blog-theme-dark .blog-theme-toggle {
+    color: #ffd166;
+    background: rgba(255, 209, 102, 0.1);
+    border-color: rgba(255, 209, 102, 0.24);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
+}
+
+.blog-theme-dark .blog-theme-toggle:hover {
+    color: #ffe29b;
+    border-color: rgba(255, 209, 102, 0.42);
+}
+
+.blog-theme-dark .blog-hero {
+    border-bottom-color: rgba(220, 232, 228, 0.1);
+}
+
+.blog-theme-dark .blog-kicker {
+    color: #8dd7c8 !important;
+}
+
+.blog-theme-dark .blog-hero-panel,
+.blog-theme-dark .blog-card,
+.blog-theme-dark .blog-article,
+.blog-theme-dark .blog-topics a {
+    background: rgba(16, 25, 28, 0.78);
+    border-color: rgba(220, 232, 228, 0.1);
+    box-shadow: 0 20px 55px rgba(0, 0, 0, 0.24);
+}
+
+.blog-theme-dark .blog-card:hover {
+    border-color: rgba(141, 215, 200, 0.32);
+    box-shadow: 0 18px 44px rgba(0, 0, 0, 0.34);
+}
+
+.blog-theme-dark .blog-hero-panel span {
+    color: #f4fbf8;
+}
+
+.blog-theme-dark .blog-hero-panel a,
+.blog-theme-dark .blog-card__tags span,
+.blog-theme-dark .blog-tag-row a {
+    color: #a7eadc;
+    background: rgba(141, 215, 200, 0.1);
+    border-color: rgba(141, 215, 200, 0.16);
+}
+
+.blog-theme-dark .blog-topics a {
+    color: #c6d8d3;
+}
+
+.blog-theme-dark .blog-topics a:hover {
+    color: #8dd7c8;
+    border-color: rgba(141, 215, 200, 0.34);
+}
+
+.blog-theme-dark .blog-search input {
+    color: #f4fbf8;
+    background: rgba(16, 25, 28, 0.88);
+    border-color: rgba(220, 232, 228, 0.14);
+}
+
+.blog-theme-dark .blog-search input:focus {
+    border-color: #8dd7c8;
+    box-shadow: 0 0 0 3px rgba(141, 215, 200, 0.14);
+}
+
+.blog-theme-dark .blog-article__header,
+.blog-theme-dark .blog-tag-row,
+.blog-theme-dark .blog-archive li,
+.blog-theme-dark .blog-tags li {
+    border-color: rgba(220, 232, 228, 0.1);
+}
+
+.blog-theme-dark .blog-article__content {
+    color: #dce8e4;
+}
+
+.blog-theme-dark .blog-article__content blockquote {
+    color: #c6d8d3;
+    background: rgba(141, 215, 200, 0.08);
+    border-left-color: #8dd7c8;
+}
+
+.blog-theme-dark .blog-article__content code {
+    color: #a7eadc;
+    background: rgba(141, 215, 200, 0.1);
+}
+
+.blog-theme-dark .blog-article__content pre {
+    background: #05080a;
+}
+
+.blog-theme-dark .blog-article__content pre code {
+    color: #dce8e4;
+    background: transparent;
+}
+
+.blog-theme-dark .blog-article__content th,
+.blog-theme-dark .blog-article__content td {
+    border-color: rgba(220, 232, 228, 0.12);
+}
+
+.blog-theme-dark .blog-article__content th {
+    color: #f4fbf8;
+    background: rgba(141, 215, 200, 0.1);
+}
+
+.blog-theme-dark .blog-article__content hr {
+    background: rgba(220, 232, 228, 0.12);
+}
+
+.blog-theme-dark .blog-callout {
+    color: #f4e5b8;
+    background: rgba(255, 209, 102, 0.1);
+    border-color: rgba(255, 209, 102, 0.18);
+}
+
 @media (max-width: 720px) {
     .blog-masthead__inner {
         align-items: flex-start;
@@ -645,6 +877,12 @@ h1:before, .anchor:before {
         gap: 1rem;
         padding-bottom: 0.2rem;
         font-size: 0.9rem;
+    }
+
+    .blog-theme-toggle {
+        position: absolute;
+        top: 0.45rem;
+        right: 1.25rem;
     }
 
     .blog-shell #main.blog-main {

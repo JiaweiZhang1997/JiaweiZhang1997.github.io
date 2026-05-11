@@ -3,6 +3,13 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <script>
+      (function() {
+        if (localStorage.getItem("blog-theme") === "dark") {
+          document.documentElement.classList.add("blog-theme-dark");
+        }
+      })();
+    </script>
   </head>
 
   <body class="blog-shell">
@@ -17,11 +24,41 @@
           <a href="{{ '/blog/faq/' | relative_url }}" target="_self">FAQ</a>
           <a href="{{ '/' | relative_url }}" target="_self">Home</a>
         </nav>
+        {% include blog-theme-toggle.html %}
       </div>
     </header>
 
     <main class="blog-main" id="main" role="main">
       {{ content }}
     </main>
+
+    <script>
+      (function() {
+        var root = document.documentElement;
+        var button = document.querySelector(".blog-theme-toggle");
+        var savedTheme = localStorage.getItem("blog-theme");
+
+        if (savedTheme === "dark") {
+          root.classList.add("blog-theme-dark");
+        }
+
+        function syncButton() {
+          var isDark = root.classList.contains("blog-theme-dark");
+          if (button) {
+            button.setAttribute("aria-pressed", String(isDark));
+          }
+        }
+
+        if (button) {
+          button.addEventListener("click", function() {
+            var isDark = root.classList.toggle("blog-theme-dark");
+            localStorage.setItem("blog-theme", isDark ? "dark" : "light");
+            syncButton();
+          });
+        }
+
+        syncButton();
+      })();
+    </script>
   </body>
 </html>
