@@ -530,18 +530,18 @@ h1:before, .anchor:before {
 }
 
 .blog-tags h2 {
-    display: inline-flex;
-    align-items: center;
-    margin: 2.8rem 0 1rem;
-    padding: 0.28rem 0.68rem;
-    color: #38665d;
-    background: #edf5f2;
-    border: 1px solid rgba(47, 127, 111, 0.14);
-    border-radius: 999px;
-    font-size: 0.92rem;
-    font-weight: 850;
+    margin: 2.9rem 0 1rem;
+    padding: 0;
+    color: #226f61;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.45rem;
+    font-style: italic;
+    font-weight: 800;
     line-height: 1.2;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .blog-tags h2:first-child {
@@ -895,8 +895,8 @@ h1:before, .anchor:before {
 
 .blog-theme-dark .blog-tags h2 {
     color: #a7eadc;
-    background: rgba(141, 215, 200, 0.1);
-    border-color: rgba(141, 215, 200, 0.16);
+    background: transparent;
+    border-color: transparent;
 }
 
 .blog-theme-dark .blog-topics a {
