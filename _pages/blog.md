@@ -23,16 +23,13 @@ title: "Blog"
   <a href="{{ '/blog/tags/#protein-modeling' | relative_url }}" target="_self">Protein Modeling</a>
   <a href="{{ '/blog/tags/#engineering' | relative_url }}" target="_self">Engineering</a>
   <a href="{{ '/blog/tags/#notes' | relative_url }}" target="_self">Notes</a>
-  <a href="#wechat-daily">个人公众号</a>
-</section>
-
-<section class="blog-wechat-card" id="wechat-daily" aria-label="WeChat public account">
-  <div>
-    <p class="blog-kicker">Daily notes</p>
-    <h2>个人公众号</h2>
-    <p>这里不是技术内容，更多是日常杂谈、生活观察和一些零散想法。欢迎扫码关注。</p>
+  <div class="blog-wechat-tag" id="wechat-daily">
+    <button type="button">个人公众号</button>
+    <div class="blog-wechat-popover" aria-label="个人公众号二维码">
+      <img src="{{ '/wechat.jpg' | relative_url }}" alt="个人公众号二维码">
+      <p>日常杂谈，不是技术内容。</p>
+    </div>
   </div>
-  <img src="{{ '/wechat.jpg' | relative_url }}" alt="个人公众号二维码">
 </section>
 
 <section class="blog-section-head blog-section-head--posts">
