@@ -374,8 +374,8 @@ h1:before, .anchor:before {
     left: 0;
     top: calc(100% + 0.55rem);
     z-index: 10;
-    width: 9rem;
-    padding: 0.55rem;
+    width: 7rem;
+    padding: 0.45rem;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-4px);
@@ -402,8 +402,9 @@ h1:before, .anchor:before {
 
 .blog-wechat-popover img {
     display: block;
-    width: 7.8rem;
-    height: 7.8rem;
+    max-width: none;
+    width: 6.1rem;
+    height: 6.1rem;
     border-radius: 8px;
     object-fit: cover;
     background: #fff;
@@ -966,8 +967,8 @@ h1:before, .anchor:before {
     }
 
     .blog-wechat-popover img {
-        width: 7.6rem;
-        height: 7.6rem;
+        width: 6.1rem;
+        height: 6.1rem;
     }
 
     .blog-archive li,
