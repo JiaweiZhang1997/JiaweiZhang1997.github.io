@@ -355,6 +355,43 @@ h1:before, .anchor:before {
     border-color: rgba(47, 127, 111, 0.36);
 }
 
+.blog-wechat-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 8.5rem;
+    align-items: center;
+    gap: 1.25rem;
+    margin: -1.2rem 0 3rem;
+    padding: 1.25rem;
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(31, 39, 36, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 12px 32px rgba(31, 39, 36, 0.06);
+}
+
+.blog-wechat-card h2 {
+    margin: 0 0 0.5rem;
+    color: #17211e;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    letter-spacing: 0;
+}
+
+.blog-wechat-card p {
+    margin: 0;
+    color: #5e6964;
+    font-size: 0.95rem;
+    line-height: 1.65;
+}
+
+.blog-wechat-card img {
+    width: 8.5rem;
+    height: 8.5rem;
+    border-radius: 8px;
+    object-fit: cover;
+    background: #fff;
+    box-shadow: 0 8px 24px rgba(31, 39, 36, 0.12);
+}
+
 .blog-section-head--posts {
     margin-bottom: 1.1rem;
 }
@@ -766,6 +803,7 @@ h1:before, .anchor:before {
 .blog-theme-dark .blog-hero-panel,
 .blog-theme-dark .blog-card,
 .blog-theme-dark .blog-article,
+.blog-theme-dark .blog-wechat-card,
 .blog-theme-dark .blog-topics a {
     background: rgba(16, 25, 28, 0.78);
     border-color: rgba(220, 232, 228, 0.1);
@@ -779,6 +817,14 @@ h1:before, .anchor:before {
 
 .blog-theme-dark .blog-hero-panel span {
     color: #f4fbf8;
+}
+
+.blog-theme-dark .blog-wechat-card h2 {
+    color: #f4fbf8;
+}
+
+.blog-theme-dark .blog-wechat-card p {
+    color: #9eb1ac;
 }
 
 .blog-theme-dark .blog-hero-panel a,
@@ -899,6 +945,16 @@ h1:before, .anchor:before {
     .blog-card a,
     .blog-article {
         padding: 1.25rem;
+    }
+
+    .blog-wechat-card {
+        grid-template-columns: 1fr;
+        margin-top: -1.4rem;
+    }
+
+    .blog-wechat-card img {
+        width: 9rem;
+        height: 9rem;
     }
 
     .blog-archive li,

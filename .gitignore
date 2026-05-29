@@ -1,3 +1,21 @@
+# Jekyll build output
 _site/
+
+# Local scripts
 push.sh
+
+# macOS
 .DS_Store
+**/.DS_Store
+
+# Local-only blog drafts
+_posts/_drafts/
+_posts/private/
+_posts/local/
+
+# Local-only post assets
+_posts/assets/private/
+
+# Example posts kept locally but not committed
+_posts/2026-05-11-demo-blog-styles.md
+_posts/2026-05-11-welcome-to-jiaweis-log.md
