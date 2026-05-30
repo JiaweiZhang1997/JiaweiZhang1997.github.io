@@ -10,10 +10,7 @@ ai_contribution: "Literature review, data collection (4,600 papers), empirical a
 human_supervision: "Research direction, hypothesis formulation, scope, final editorial judgement"
 tags:
   - Metascience
-  - AI4Science
-  - Research Direction
-  - LLM Bias
-  - Publication Trends
+  - LLM
 excerpt: "4,600 papers, 5 disciplines, 8 years (2019-2026). AI method vocabulary surged after ChatGPT—then began declining in 2025-2026. Biology never concentrated. AI can predict paper conclusions from titles alone with >80% accuracy. And AI's own research preferences look nothing like what scientists actually publish."
 ---
 

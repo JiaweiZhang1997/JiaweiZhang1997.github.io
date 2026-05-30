@@ -27,7 +27,7 @@ title: "Blog"
     <button type="button">个人公众号</button>
     <div class="blog-wechat-popover" aria-label="个人公众号二维码">
       <img src="{{ '/wechat.jpg' | relative_url }}" alt="个人公众号二维码">
-      <p>日常杂谈，不是技术内容。</p>
+      <p>日常杂谈，欢迎关注～</p>
     </div>
   </div>
 </section>
