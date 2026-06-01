@@ -7,7 +7,6 @@ author: Jiawei Zhang
 reading_time: 55 min
 tags:
   - Biology
-  - 免疫
   - TCR-pMHC
   - AI4Science
 excerpt: "T细胞到底是如何被激活的呢？这篇笔记从TCR-pMHC结构、抗原呈递、激活实验、动态机制、杀伤流程、肿瘤微环境和建模需求几个层面做一个尽量完整的入门梳理。"
