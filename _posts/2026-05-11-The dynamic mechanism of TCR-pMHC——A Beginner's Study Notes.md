@@ -12,6 +12,38 @@ tags:
 excerpt: "How exactly are T cells activated? This note gives a beginner-friendly overview of TCR-pMHC background knowledge, antigen presentation, the composition of public datasets, T cell activation mechanisms, and modeling needs."
 ---
 
+<style>
+.blog-article__content p,
+.blog-article__content ul,
+.blog-article__content ol {
+  margin-bottom: 1.45rem;
+}
+
+.blog-article__content li + li {
+  margin-top: 0.5rem;
+}
+
+.blog-article__content h2 {
+  margin-top: 3rem;
+}
+
+.blog-article__content h3 {
+  margin-top: 2.25rem;
+}
+
+.blog-article__content h4 {
+  margin: 1.65rem 0 0.7rem;
+  color: #17211e;
+  font-size: 1rem;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+
+.blog-article__content figure {
+  margin: 1.9rem 0 2.3rem;
+}
+</style>
+
 T cells are a crucial part of the human immune system and a core arm of adaptive immunity. They can recognize epitopes presented by major histocompatibility complex (MHC) molecules and then kill the corresponding harmful cells. They are like the body's "special forces": they can precisely identify and destroy virus-infected cells and tumor cells. TCR-T therapy, TIL therapy, and tumor vaccines are all therapeutic strategies developed from the ability of T cells to kill tumor cells.
 
 **TCR-T cell therapy**: ordinary T cells are collected from a patient's peripheral blood. A gene encoding a specific T cell receptor (TCR) is introduced into these cells in vitro by genetic engineering, so that they can specifically recognize and bind intracellular antigens presented by tumor cells as pMHC complexes. The engineered cells are expanded in vitro and infused back into the patient to achieve targeted killing of specific solid tumor cells.
@@ -31,7 +63,7 @@ It was from this point that I increasingly felt the importance of understanding 
 
 ## Key Terms
 
-### 1. MHC / HLA (Major Histocompatibility Complex / Human Leukocyte Antigen)
+### MHC / HLA (Major Histocompatibility Complex / Human Leukocyte Antigen)
 
 In humans, HLA molecules are mainly divided into **Class I** and **Class II**. Their molecular structures and oligomeric states are very different. For a broader overview of MHC antigen presentation, see [Rock, Reits, and Neefjes, 2016](https://doi.org/10.1016/j.it.2016.08.010).
 
@@ -64,14 +96,14 @@ In humans, HLA molecules are mainly divided into **Class I** and **Class II**. T
 
 The HLA gene complex is located on the short arm of human chromosome 6 (**6p21.3**). Because humans are diploid and inherit one chromosome set from each parent, the number of HLA molecules expressed in each person has clear genetic boundaries.
 
-##### Core Classical HLA Molecules
+#### Core Classical HLA Molecules
 
 The most important molecules in clinical and bioinformatics contexts are **classical HLA molecules**:
 
 * **HLA Class I**: the three major loci are **HLA-A, HLA-B, and HLA-C**.
 * **HLA Class II**: the three major loci are **HLA-DP, HLA-DQ, and HLA-DR**.
 
-##### How Many Different HLA Proteins Can One Person Express?
+#### How Many Different HLA Proteins Can One Person Express?
 
 Because HLA genes are expressed **codominantly**, alleles inherited from both the father and the mother are simultaneously expressed on the cell surface.
 
@@ -80,13 +112,11 @@ Because HLA genes are expressed **codominantly**, alleles inherited from both th
   * **Class II molecules**: DP, DQ, and DR $\alpha$ and $\beta$ chains are inherited from both parents. Because Class II molecules are $\alpha/\beta$ heterodimers, an $\alpha$ chain from the father can assemble with a $\beta$ chain from the mother. Therefore, each locus can theoretically generate four combinations, giving a maximum of about **12-16** different HLA-II complexes.
 * **Theoretical minimum number (extreme homozygosity)**: if the parents are highly related and pass down exactly the same HLA genes, that person would have only **3 Class I** and **3 Class II** molecules.
 
----
-
-##### HLA Inheritance: Haplotypes and Linkage Disequilibrium
+#### HLA Inheritance: Haplotypes and Linkage Disequilibrium
 
 The HLA complex is one of the most polymorphic and complex regions in the human genome, and it follows very distinctive inheritance patterns.
 
-###### Haplotype Inheritance
+**Haplotype inheritance**
 
 Because HLA loci (A, B, C, DR, DQ, and DP) are packed very tightly on chromosome 6, **homologous chromosomal recombination rarely occurs** during meiosis when germ cells are formed (the recombination rate is $< 1\%$).
 
@@ -94,7 +124,7 @@ Because HLA loci (A, B, C, DR, DQ, and DP) are packed very tightly on chromosome
 * **Parent and child**: any child must share one half of the HLA haplotypes with the father and the other half with the mother.
 * **Siblings**: according to Mendelian inheritance, full siblings have a **25%** chance of being completely HLA-matched, a **25%** chance of being completely mismatched, and a **50%** chance of sharing one haplotype. This is why bone marrow donors are often sought among siblings.
 
-### 2. Antigen (Epitope / Peptide)
+### Antigen (Epitope / Peptide)
 
 Here, antigen specifically refers to the **endogenous or exogenous short peptide epitope** presented by HLA.
 
@@ -107,13 +137,13 @@ Here, antigen specifically refers to the **endogenous or exogenous short peptide
   * **TCR-contacting residues**: amino acid side chains in the middle of the peptide that face outward and are solvent-exposed. They directly contact the TCR and determine recognition specificity.
 
 <figure style="text-align: center;">
-  <img src="{{ '/assets/posts/tcr-pmhc/MHC2.png' | relative_url }}" alt="Peptide in the MHC binding groove" style="max-width: 100%; height: auto;">
+  <img src="{{ '/assets/posts/tcr-pmhc/MHC1.png' | relative_url }}" alt="Peptide in the MHC binding groove" style="max-width: 100%; height: auto;">
   <figcaption style="color: #777; font-weight: bold; text-align: center;">
     Figure 2: Peptide in the MHC binding groove
   </figcaption>
 </figure>
 
-### 3. T Cell
+### T Cell
 
 #### TCR (T Cell Receptor; see Figure 3)
 
@@ -141,7 +171,7 @@ More than 95% of conventional T cells in the human body express **$\alpha\beta$ 
 
 To recognize enormous numbers of foreign pathogens and tumor neoantigens, T cells rely on the extremely high diversity of the TCR variable region, especially the CDR3 loop. The human body can generate as many as $10^{15}$-$10^{18}$ different TCR sequences, even though the human genome contains only about 20,000 protein-coding genes. This "many receptors from limited genes" mechanism is achieved through **V(D)J recombination**, mediated by RAG recombinases and junctional diversity mechanisms.
 
-##### The "Lottery" of Gene Segment Combination
+#### The "Lottery" of Gene Segment Combination
 
 During T cell development in the thymus, the coding gene segments of the TCR are broken up and distributed across the genome. These segments are mainly divided into three categories:
 
@@ -155,7 +185,7 @@ $$\text{TCR }\alpha\text{ chain recombination} = V_\alpha + J_\alpha$$
 
 $$\text{TCR }\beta\text{ chain recombination} = V_\beta + D_\beta + J_\beta$$
 
-##### Three Major Sources of Diversity
+#### Three Major Sources of Diversity
 
 * **Combinatorial diversity**: random combinations of different V, D, and J segments. For example, the $\beta$ chain has about 40 $V_\beta$ segments, 2 $D_\beta$ segments, and 13 $J_\beta$ segments, giving $40 \times 2 \times 13 = 1040$ combinations. Adding random $\alpha$-chain combinations makes the number grow geometrically.
 * **Junctional diversity (key point)**: at the breakpoints where segments are joined, terminal deoxynucleotidyl transferase (**TdT**) randomly deletes or inserts several nucleotides (N-region insertion). This directly changes amino acid sequences and reading frames. As a result, even if exactly the same V, D, and J segments are chosen, the final TCR coding sequence can be completely different. This is the core reason why the **CDR3 loop**, the region that directly contacts the antigenic peptide, is so variable.
@@ -183,9 +213,11 @@ Many receptors affect T cell activation, including CD4, CD8, CD28, and CD25. Bel
 ### MHC Presents Epitopes (Figure 5)
 
 First, TCRs can only recognize epitopes presented by MHC.
+
 HLA Class I molecules present endogenous antigens, so they are the main force in killing tumor cells and are also the focus of this note. Normal nucleated cells continuously degrade old proteins and synthesize new ones. Cytosolic proteins are cut into short peptides of 8-11 amino acids, loaded by HLA Class I molecules in the endoplasmic reticulum to form pMHC complexes, and transported to the cell surface. When $\text{CD8}^+$ cytotoxic T cells find that the presented antigen is not a normal self-derived peptide, for example because the cell has become cancerous and produced a tumor neoantigen or because it is virus-infected, they can directly release perforin and granzymes to initiate apoptosis.
 
 HLA Class II molecules present external bacteria, exogenous toxins, and related antigens. Professional antigen-presenting cells take these enemies into the cell through endocytosis or phagocytosis, digest them in lysosomes into long peptides of 13-25 amino acids, place them into the open groove of HLA Class II molecules, and transport them to the membrane surface for $\text{CD4}^+$ helper T cells. After recognition, $\text{CD4}^+$ T cells usually do not kill targets directly. Instead, they produce and secrete many cytokines, such as IL-2 and IFN-$\gamma$, to instruct B cells to produce antibodies or recruit macrophages to kill harmful cells.
+
 Memory trick: HLA-I pairs with $\text{CD8}^+$ T cells, and HLA-II pairs with $\text{CD4}^+$ T cells. The products are both 8: $1 \times 8 = 2 \times 4 = 8$.
 
 <figure style="text-align: center;">
@@ -231,7 +263,7 @@ Therefore, a complete TCR-CD3 octamer carries **10 ITAM signaling modules** insi
   </figcaption>
 </figure>
 
-#### Stage 1: Igniting the Signal Modules (Recruitment and Phosphorylation of Receptor-Proximal Kinases)
+#### Igniting the Signal Modules: Recruitment and Phosphorylation of Receptor-Proximal Kinases
 
 This is the key first step that converts physical recognition into chemical signaling.
 
@@ -241,7 +273,7 @@ When the TCR binds pMHC on an antigen-presenting cell (APC), the T cell co-recep
 **ITAM phosphorylation**<br>
 Once brought nearby, Lck rapidly phosphorylates the ITAMs on each CD3 chain. Each ITAM contains two key tyrosine residues, with a sequence motif written as $YxxL/I(x)_{6-8}YxxL/I$. Lck phosphorylates both tyrosines. The 6 ITAMs on the $\zeta\zeta$ homodimer are especially important, and their efficient phosphorylation is central to downstream signal amplification.
 
-#### Stage 2: Recruiting the Signal Amplifier (ZAP-70 Binding and Activation)
+#### Recruiting the Signal Amplifier: ZAP-70 Binding and Activation
 
 Phosphorylated ITAMs change their conformation and chemical properties and become perfect landing pads.
 
@@ -261,7 +293,7 @@ The truly difficult question is actually earlier: **how does the TCR decide whet
 
 Therefore, T cell activation is not a single switch. It is more like a multi-layer security system. Molecular binding kinetics, membrane spatial organization, mechanical force, receptor clustering, the cytoskeleton, co-receptors, and feedback regulation all participate in the decision. The following hypotheses are not mutually exclusive; they explain the same phenomenon from different scales. For broad discussion of TCR triggering mechanisms, see [Chakraborty and Weiss, 2014](https://doi.org/10.1038/ni.2883).
 
-### 1. Kinetic Proofreading
+### Kinetic Proofreading
 
 **Kinetic proofreading** is a classical model for explaining TCR specificity. Its core idea is simple: after TCR-pMHC binding, the T cell is not activated immediately. Instead, a sequence of signaling steps must be completed in order, such as CD3 ITAM phosphorylation, ZAP-70 recruitment, ZAP-70 activation, and LAT signalosome formation.
 
@@ -277,7 +309,7 @@ At every stage, the TCR-pMHC complex must not fall apart too early. In this way,
 
 This model is important for modeling because it reminds us that we cannot only ask whether the TCR and peptide can bind. We must also care about **off-rate, dwell time, the number of signaling steps, feedback strength, and readout time point**. A pair that looks positive in a binding assay does not necessarily complete full activation.
 
-### 2. Serial Triggering
+### Serial Triggering
 
 **Serial triggering** tries to explain another phenomenon: why can a very small number of pMHC molecules still induce a clear T cell response?
 
@@ -285,9 +317,9 @@ This hypothesis proposes that one agonist pMHC does not serve only one TCR. It c
 
 This also explains why TCR-pMHC affinity is not simply "the higher the better." If binding is too weak, the signal has no time to accumulate. But if binding is too strong, the pMHC may be occupied by one TCR for too long, which instead prevents it from serially triggering more TCRs. Effective activation may require a kinetic window: binding must be long enough to complete early proofreading, but not so long that turnover is completely lost.
 
-### 3. Kinetic Segregation
+### Kinetic Segregation
 
-**Kinetic segregation** explains TCR triggering from the spatial dimensions of the membrane surface. This model is strongly associated with the work of [Davis and van der Merwe, 2006](https://doi.org/10.1038/ni1349).
+**Kinetic segregation** explains TCR triggering from the spatial dimensions of the membrane surface. This model is strongly associated with the work of [Davis and van der Merwe, 2006](https://doi.org/10.1038/ni1369).
 
 In the resting state, both ignition and extinguishing forces exist on the T cell membrane. The ignition side consists of kinases such as Lck, which phosphorylate CD3 ITAMs. The extinguishing side consists of phosphatases such as CD45, which remove phosphate groups. CD45 has a very large extracellular domain, like a giant mop, and can normally keep removing accidental weak phosphorylation signals so that the T cell stays quiet.
 
@@ -295,11 +327,11 @@ When TCR binds pMHC, the T cell membrane and the APC or target-cell membrane are
 
 The result is that CD45 is physically excluded from the local region, which shifts the balance from "kinases and phosphatases pulling against each other" to "kinases dominate." Lck finally obtains a relatively clean ignition environment and can efficiently phosphorylate CD3 ITAMs.
 
-### 4. Mechanosensing / Catch Bond
+### Mechanosensing / Catch Bond
 
 T cells do not quietly wait for antigens to float by. They scan, crawl over APCs or target cells, extend microvilli, and apply small mechanical forces to TCR-pMHC complexes through the cytoskeleton.
 
-Traditional intuition says that after two molecules bind, pulling them apart makes them separate more easily. This is called a **slip bond**. But some TCR-pMHC interactions show **catch-bond**-like behavior: within a certain force range, external force does not make the bond fall apart faster. Instead, it makes the bond grip more tightly and live longer. Experimental evidence for TCR catch bonds and mechanosensing includes [Liu et al., 2014](https://doi.org/10.1073/pnas.1415063111) and related work.
+Traditional intuition says that after two molecules bind, pulling them apart makes them separate more easily. This is called a **slip bond**. But some TCR-pMHC interactions show **catch-bond**-like behavior: within a certain force range, external force does not make the bond fall apart faster. Instead, it makes the bond grip more tightly and live longer. Experimental evidence for TCR catch bonds and mechanosensing includes [Liu et al., 2014](https://doi.org/10.1016/j.cell.2014.02.053) and related work.
 
 This gives TCR antigen discrimination a beautiful physical mechanism:
 
@@ -308,7 +340,7 @@ This gives TCR antigen discrimination a beautiful physical mechanism:
 
 From a structural perspective, this force may be transmitted downward through the TCR variable region, constant region, and transmembrane region, changing the state of the CD3 extracellular domains and cytoplasmic tails. This may make ITAMs that were originally close to the membrane more accessible to Lck. Some papers have already tried to use this mechanism to optimize TCRs and have made progress.
 
-### 5. Conformational Change
+### Conformational Change
 
 The **conformational-change hypothesis** proposes that TCR binding to pMHC is not merely two surfaces sticking together. It may also induce structural changes inside the TCR-CD3 complex.
 
@@ -316,15 +348,15 @@ For example, TCR CDR loops, the peptide, MHC $\alpha$ helices, the TCR constant 
 
 The value of this hypothesis is that it pushes the question from "can it bind?" to "in what pose does it bind?" Two TCR-pMHC pairs may have similar affinity, but if their docking geometry, contact residues, force-transmission paths, and conformational changes differ, their final signaling ability may be completely different.
 
-### 6. Clustering / Microclusters
+### Clustering / Microclusters
 
 The signal from a single TCR is weak. True activation often depends on many TCRs forming local clusters on the membrane surface. **TCR microclusters** can be viewed as small early signaling command posts.
 
-After TCRs encounter agonist pMHC, signaling molecules such as TCR-CD3, ZAP-70, LAT, and SLP-76 rapidly accumulate locally. These microclusters usually appear before the immunological synapse matures and can initiate early signaling within seconds to tens of seconds. Later, they move toward the center of the cell contact interface with actin retrograde flow. For early evidence of TCR microclusters, see [Campi, Varma, and Dustin, 2005](https://doi.org/10.1084/jem.20051017).
+After TCRs encounter agonist pMHC, signaling molecules such as TCR-CD3, ZAP-70, LAT, and SLP-76 rapidly accumulate locally. These microclusters usually appear before the immunological synapse matures and can initiate early signaling within seconds to tens of seconds. Later, they move toward the center of the cell contact interface with actin retrograde flow. For early evidence of TCR microclusters, see [Campi, Varma, and Dustin, 2005](https://doi.org/10.1084/jem.20051182).
 
 This model explains why the T cell response is not just about a single pair. The distribution of pMHC on the membrane, TCR expression level, local diffusion rate, cytoskeletal flow, and LFA-1/ICAM-1 adhesion strength all affect whether microclusters can form, persist, and amplify signals.
 
-### 7. Immunological Synapse
+### Immunological Synapse
 
 If microclusters are early small ignition points, the **immunological synapse** is the mature combat interface formed between the T cell and the target cell. The classic supramolecular activation cluster model was described by [Monks et al., 1998](https://doi.org/10.1038/32587) and subsequent work.
 
@@ -387,7 +419,7 @@ If some PIRD sub-databases or association tables provide antigen, disease, or ep
 
 ### [IEDB](https://www.iedb.org/)
 
-IEDB is one of the easiest data sources to misuse, because it is not a single-task database. Instead, it collects many types of epitope-related experimental results, including T cell, B cell, MHC binding, and ligand-elution data ([Vita et al., 2019](https://doi.org/10.1093/nar/gky1006); [IEDB 2024 update](https://pmc.ncbi.nlm.nih.gov/articles/PMC11701597/)). When using IEDB, the key is not whether an entry is called positive, but its **assay type**.
+IEDB is one of the easiest data sources to misuse, because it is not a single-task database. Instead, it collects many types of epitope-related experimental results, including T cell, B cell, MHC binding, and ligand-elution data ([Vita et al., 2019](https://doi.org/10.1093/nar/gky1006); [Vita et al., 2025](https://doi.org/10.1093/nar/gkae1092)). When using IEDB, the key is not whether an entry is called positive, but its **assay type**.
 
 Common measurement phenomena in IEDB include:
 
@@ -413,7 +445,7 @@ However, its negatives require special caution. Many negatives are generated by 
 
 ### [BATCAVE](https://github.com/meyer-lab-cshl/BATMAN)
 
-BATCAVE is the benchmark here that is closest to **T cell activation / cross-reactivity**. It was introduced with BATMAN and collects TCR cross-reactivity data based on single-amino-acid mutational scans ([Meyer et al., 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10871174/)). Rather than simply collecting whether "a TCR has seen an antigen," it starts from a known index peptide and performs single-amino-acid mutation scanning: one peptide position is changed to other amino acids, and the strength of the same TCR's response to these mutant peptides is measured.
+BATCAVE is the benchmark here that is closest to **T cell activation / cross-reactivity**. It was introduced with BATMAN and collects TCR cross-reactivity data based on single-amino-acid mutational scans ([Banerjee et al., 2025](https://doi.org/10.1016/j.cels.2025.101345)). Rather than simply collecting whether "a TCR has seen an antigen," it starts from a known index peptide and performs single-amino-acid mutation scanning: one peptide position is changed to other amino acids, and the strength of the same TCR's response to these mutant peptides is measured.
 
 Its core measured phenomena are functional outputs, such as:
 
@@ -429,7 +461,7 @@ One should note that BATCAVE may also integrate a small amount of TCR-pMHC affin
 
 These three resources are structural resources and should not be mixed with functional labels such as VDJdb, IEDB T cell assays, or BATCAVE.
 
-**TCR3d** and **STCRDab** collect experimentally solved TCR, pMHC, TCR-pMHC, or TCR-CD3 structures from the Protein Data Bank. The underlying experiments are mainly X-ray crystallography, with some recent cryo-EM structures. TCR3d is described in [Gowthaman and Pierce, 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6954642/) and updated in [TCR3d 2.0](https://doi.org/10.1093/nar/gkae840); STCRDab is described in [Leem et al., 2018](https://doi.org/10.1093/nar/gkx971). These resources measure:
+**TCR3d** and **STCRDab** collect experimentally solved TCR, pMHC, TCR-pMHC, or TCR-CD3 structures from the Protein Data Bank. The underlying experiments are mainly X-ray crystallography, with some recent cryo-EM structures. TCR3d is described in [Gowthaman and Pierce, 2019](https://doi.org/10.1093/bioinformatics/btz517) and updated in [Lin et al., 2025](https://doi.org/10.1093/nar/gkae840); STCRDab is described in [Leem et al., 2018](https://doi.org/10.1093/nar/gkx971). These resources measure:
 
 * three-dimensional atomic coordinates
 * TCR-pMHC docking angle
@@ -444,7 +476,7 @@ These data answer the question "what does this complex look like, how does it co
 
 ### [Observed TCR Space (OTS)](https://opig.stats.ox.ac.uk/webapps/ots)
 
-OTS is a paired-chain repertoire background resource. It collects truly observed TCR $\alpha/\beta$ pairings from public single-cell TCR repertoires ([Raybould et al., 2024](https://doi.org/10.1016/j.celrep.2024.114238)). What is measured here is **that a certain TCR pair appeared in real human populations or samples**, not which pMHC it recognizes.
+OTS is a paired-chain repertoire background resource. It collects truly observed TCR $\alpha/\beta$ pairings from public single-cell TCR repertoires ([Raybould et al., 2024](https://doi.org/10.1016/j.celrep.2024.114704)). What is measured here is **that a certain TCR pair appeared in real human populations or samples**, not which pMHC it recognizes.
 
 The core readouts of OTS include:
 
@@ -475,26 +507,30 @@ After reading the above, it should be clear that these datasets actually corresp
 
 Of course, T cell activation never depends only on whether TCR and pMHC match as the first signal. In real physiological and pathological environments, it is more like a multidimensional dynamic game. T cells must also receive co-stimulatory signals such as CD28-mediated signaling (the second signal) to avoid anergy, while tumor cells often express PD-L1 and other immune checkpoints to "hit the brake." In addition, local cytokine signals (the third signal), the harsh tumor microenvironment (TME), such as hypoxia, high acidity, metabolic competition, and physical stromal barriers, as well as the epigenetic exhaustion state of the T cell itself and the true antigen abundance on the target-cell surface, all directly determine whether activation succeeds. Therefore, a perfect TCR-pMHC match only grants the entry ticket for attack. Pulling the trigger still requires crossing many barriers imposed by the microenvironment and cell state. Hopefully, in the not-too-distant future, we can model a more complete process with more clever methods, perhaps even virtual cells.
 
-## Key References
+## References
 
-* MHC antigen presentation: [Rock, Reits, and Neefjes, 2016](https://doi.org/10.1016/j.it.2016.08.010).
-* TCR recognition of antigen-presenting molecules: [Rossjohn et al., 2015](https://doi.org/10.1146/annurev-immunol-032414-112334).
-* TCR-CD3 molecular architecture: [Dong et al., 2019](https://doi.org/10.1038/s41586-019-1537-0).
-* TCR signaling overview: [Courtney, Lo, and Weiss, 2018](https://doi.org/10.1038/s41577-018-0107-0).
-* TCR triggering mechanisms: [Chakraborty and Weiss, 2014](https://doi.org/10.1038/ni.2883).
-* Kinetic proofreading: [Hopfield, 1974](https://doi.org/10.1073/pnas.71.10.4135); [McKeithan, 1995](https://doi.org/10.1073/pnas.92.11.5042).
-* Serial triggering: [Valitutti et al., 1995](https://doi.org/10.1038/375148a0).
-* Kinetic segregation: [Davis and van der Merwe, 2006](https://doi.org/10.1038/ni1349).
-* TCR mechanosensing and catch bonds: [Liu et al., 2014](https://doi.org/10.1073/pnas.1415063111).
-* TCR microclusters: [Campi, Varma, and Dustin, 2005](https://doi.org/10.1084/jem.20051017).
-* Immunological synapse: [Monks et al., 1998](https://doi.org/10.1038/32587).
-* VDJdb: [Shugay et al., 2018](https://doi.org/10.1093/nar/gkx760); [Bagaev et al., 2020](https://doi.org/10.1093/nar/gkz874).
-* McPAS-TCR: [Tickotsky et al., 2017](https://doi.org/10.1093/bioinformatics/btx286).
-* PIRD: [Zhang et al., 2020](https://doi.org/10.1093/bioinformatics/btz614).
-* IEDB: [Vita et al., 2019](https://doi.org/10.1093/nar/gky1006); [IEDB 2024 update](https://pmc.ncbi.nlm.nih.gov/articles/PMC11701597/).
-* ImmRep23: [Nielsen et al., 2024](https://doi.org/10.1016/j.immuno.2024.100045).
-* BATCAVE / BATMAN: [Meyer et al., 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10871174/).
-* TCR3d: [Gowthaman and Pierce, 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6954642/); [TCR3d 2.0](https://doi.org/10.1093/nar/gkae840).
-* STCRDab: [Leem et al., 2018](https://doi.org/10.1093/nar/gkx971).
-* Observed TCR Space: [Raybould et al., 2024](https://doi.org/10.1016/j.celrep.2024.114238).
-* MIRA / immuneACCESS-style antigen mapping: [Klinger et al., 2015](https://doi.org/10.1371/journal.pone.0141561).
+* Rock KL, Reits E, Neefjes J. [Present Yourself! By MHC Class I and MHC Class II Molecules](https://doi.org/10.1016/j.it.2016.08.010).
+* Rossjohn J, Gras S, Miles JJ, Turner SJ, Godfrey DI, McCluskey J. [T Cell Antigen Receptor Recognition of Antigen-Presenting Molecules](https://doi.org/10.1146/annurev-immunol-032414-112334).
+* Dong D, Zheng L, Lin J, et al. [Structural basis of assembly of the human T cell receptor-CD3 complex](https://doi.org/10.1038/s41586-019-1537-0).
+* Courtney AH, Lo WL, Weiss A. [TCR signaling: mechanisms of initiation and propagation](https://doi.org/10.1038/s41577-018-0107-0).
+* Chakraborty AK, Weiss A. [Insights into the initiation of TCR signaling](https://doi.org/10.1038/ni.2883).
+* Hopfield JJ. [Kinetic proofreading: a new mechanism for reducing errors in biosynthetic processes requiring high specificity](https://doi.org/10.1073/pnas.71.10.4135).
+* McKeithan TW. [Kinetic proofreading in T-cell receptor signal transduction](https://doi.org/10.1073/pnas.92.11.5042).
+* Valitutti S, Muller S, Cella M, Padovan E, Lanzavecchia A. [Serial triggering of many T-cell receptors by a few peptide-MHC complexes](https://doi.org/10.1038/375148a0).
+* Davis SJ, van der Merwe PA. [The kinetic-segregation model: TCR triggering and beyond](https://doi.org/10.1038/ni1369).
+* Liu B, Chen W, Evavold BD, Zhu C. [Accumulation of dynamic catch bonds between TCR and agonist peptide-MHC triggers T cell signaling](https://doi.org/10.1016/j.cell.2014.02.053).
+* Campi G, Varma R, Dustin ML. [Actin and agonist MHC-peptide complex-dependent T cell receptor microclusters as scaffolds for signaling](https://doi.org/10.1084/jem.20051182).
+* Monks CRF, Freiberg BA, Kupfer H, Sciaky N, Kupfer A. [Three-dimensional segregation of supramolecular activation clusters in T cells](https://doi.org/10.1038/32587).
+* Shugay M, Bagaev DV, Turchaninova MA, et al. [VDJdb: a curated database of T-cell receptor sequences with known antigen specificity](https://doi.org/10.1093/nar/gkx760).
+* Bagaev DV, Vroomans RMA, Samir J, et al. [VDJdb in 2019: database extension, new analysis infrastructure and a T-cell receptor motif compendium](https://doi.org/10.1093/nar/gkz874).
+* Tickotsky N, Sagiv T, Prilusky J, Shifrut E, Friedman N. [McPAS-TCR: a manually curated catalogue of pathology-associated T cell receptor sequences](https://doi.org/10.1093/bioinformatics/btx286).
+* Zhang W, Wang L, Liu K, et al. [PIRD: Pan immune repertoire database](https://doi.org/10.1093/bioinformatics/btz614).
+* Vita R, Mahajan S, Overton JA, et al. [The Immune Epitope Database (IEDB): 2018 update](https://doi.org/10.1093/nar/gky1006).
+* Vita R, Blazeska N, Marrama D, et al. [The Immune Epitope Database (IEDB): 2024 update](https://doi.org/10.1093/nar/gkae1092).
+* Nielsen M, Eugster A, Jensen MF, et al. [Lessons learned from the IMMREP23 TCR-epitope prediction challenge](https://doi.org/10.1016/j.immuno.2024.100045).
+* Banerjee A, Pattinson DJ, Wincek CL, et al. [T cell receptor cross-reactivity prediction improved by a comprehensive mutational scan database](https://doi.org/10.1016/j.cels.2025.101345).
+* Gowthaman R, Pierce BG. [TCR3d: The T cell receptor structural repertoire database](https://doi.org/10.1093/bioinformatics/btz517).
+* Lin V, Cheung M, Gowthaman R, Eisenberg M, Baker BM, Pierce BG. [TCR3d 2.0: expanding the T cell receptor structure database with new structures, tools and interactions](https://doi.org/10.1093/nar/gkae840).
+* Leem J, de Oliveira SHP, Krawczyk K, Deane CM. [STCRDab: the structural T-cell receptor database](https://doi.org/10.1093/nar/gkx971).
+* Raybould MIJ, Greenshields-Watson A, Agarwal P, et al. [The observed T cell receptor space database enables paired-chain repertoire mining, coherence analysis and language modelling](https://doi.org/10.1016/j.celrep.2024.114704).
+* Klinger M, Pepin F, Wilkins J, et al. [Multiplex Identification of Antigen-Specific T Cell Receptors Using a Combination of Immune Assays and Immune Receptor Sequencing](https://doi.org/10.1371/journal.pone.0141561).
