@@ -2,9 +2,9 @@
 layout: post
 title: "The dynamic mechanism of TCR-pMHC——A Beginner's Study Notes"
 subtitle: "Study notes on basic T cell immunology and activation mechanisms."
-date: 2026-05-11 00:30:00 +0800
+date: 2026-06-05 00:30:00 +0800
 author: Jiawei Zhang
-reading_time: 55 min
+reading_time: 20-30 min
 tags:
   - Biology
   - TCR-pMHC

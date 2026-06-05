@@ -3,7 +3,7 @@ layout: post
 title: "Welcome to Jiawei's Log"
 date: 2026-05-11 00:00:00 +0800
 author: Jiawei Zhang
-reading_time: 2 min
+reading_time: 1 min
 tags: []
 
 excerpt: ""
