@@ -482,7 +482,7 @@ After reading the above, it should be clear that these datasets actually corresp
 
 Of course, T cell activation never depends only on whether TCR and pMHC match as the first signal. In real physiological and pathological environments, it is more like a multidimensional dynamic game. T cells must also receive co-stimulatory signals such as CD28-mediated signaling (the second signal) to avoid anergy, while tumor cells often express PD-L1 and other immune checkpoints to "hit the brake." In addition, local cytokine signals (the third signal), the harsh tumor microenvironment (TME), such as hypoxia, high acidity, metabolic competition, and physical stromal barriers, as well as the epigenetic exhaustion state of the T cell itself and the true antigen abundance on the target-cell surface, all directly determine whether activation succeeds. Therefore, a perfect TCR-pMHC match only grants the entry ticket for attack. Pulling the trigger still requires crossing many barriers imposed by the microenvironment and cell state. Hopefully, in the not-too-distant future, we can model a more complete process with more clever methods, perhaps even virtual cells.
 
-<span style="color: #bbb; font-weight: bold;font-size: 0.7rem; font-family: Georgia, serif;">
+<span style="color: #bbb; font-weight: bold;font-size: 0.9rem; font-family: Georgia, serif;">
   Some of the knowledge points and information have been compiled by AI. The article represents the author's personal viewpoint only. The pictures are from the internet. If there are any errors, infringements or other issues, please contact me via jiawei_zhang1@163.com.
 </span>
 

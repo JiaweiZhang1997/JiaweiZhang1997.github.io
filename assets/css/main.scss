@@ -689,6 +689,10 @@ h1:before, .anchor:before {
     margin: 1.9rem 0 2.3rem;
 }
 
+.blog-article__content figcaption {
+    font-family: Georgia, serif;
+}
+
 .blog-article__content a {
     color: #226f61;
     text-decoration: underline;
