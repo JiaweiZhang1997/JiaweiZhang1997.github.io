@@ -12,38 +12,6 @@ tags:
 excerpt: "How exactly are T cells activated? This note gives a beginner-friendly overview of TCR-pMHC background knowledge, antigen presentation, the composition of public datasets, T cell activation mechanisms, and modeling needs."
 ---
 
-<style>
-.blog-article__content p,
-.blog-article__content ul,
-.blog-article__content ol {
-  margin-bottom: 1.45rem;
-}
-
-.blog-article__content li + li {
-  margin-top: 0.5rem;
-}
-
-.blog-article__content h2 {
-  margin-top: 3rem;
-}
-
-.blog-article__content h3 {
-  margin-top: 2.25rem;
-}
-
-.blog-article__content h4 {
-  margin: 1.65rem 0 0.7rem;
-  color: #17211e;
-  font-size: 1rem;
-  line-height: 1.35;
-  letter-spacing: 0;
-}
-
-.blog-article__content figure {
-  margin: 1.9rem 0 2.3rem;
-}
-</style>
-
 T cells are a crucial part of the human immune system and a core arm of adaptive immunity. They can recognize epitopes presented by major histocompatibility complex (MHC) molecules and then kill the corresponding harmful cells. They are like the body's "special forces": they can precisely identify and destroy virus-infected cells and tumor cells. TCR-T therapy, TIL therapy, and tumor vaccines are all therapeutic strategies developed from the ability of T cells to kill tumor cells.
 
 **TCR-T cell therapy**: ordinary T cells are collected from a patient's peripheral blood. A gene encoding a specific T cell receptor (TCR) is introduced into these cells in vitro by genetic engineering, so that they can specifically recognize and bind intracellular antigens presented by tumor cells as pMHC complexes. The engineered cells are expanded in vitro and infused back into the patient to achieve targeted killing of specific solid tumor cells.
@@ -257,7 +225,7 @@ Each CD3 chain has a long "tail" that extends into the cytoplasm. These tails ar
 Therefore, a complete TCR-CD3 octamer carries **10 ITAM signaling modules** inside the cytoplasm. This high density of signaling sites is the physical basis for the T cell's ability to produce cascade amplification and respond almost immediately to extremely small amounts of antigen.
 
 <figure style="text-align: center;">
-  <img src="{{ '/assets/posts/tcr-pmhc/tcr_detail.png' | relative_url }}" alt="TCR-CD3 complex bound to peptide-MHC I" style="max-width: 100%; height: auto;">
+  <img src="{{ '/assets/posts/tcr-pmhc/tcr_pmhc_complex.png' | relative_url }}" alt="TCR-CD3 complex bound to peptide-MHC I" style="max-width: 100%; height: auto;">
   <figcaption style="color: #777; font-weight: bold; text-align: center;">
     Figure 7: TCR-CD3 Complex Bound to peptide-MHC I
   </figcaption>
