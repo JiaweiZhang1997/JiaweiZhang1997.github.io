@@ -92,6 +92,13 @@ Because HLA loci (A, B, C, DR, DQ, and DP) are packed very tightly on chromosome
 * **Parent and child**: any child must share one half of the HLA haplotypes with the father and the other half with the mother.
 * **Siblings**: according to Mendelian inheritance, full siblings have a **25%** chance of being completely HLA-matched, a **25%** chance of being completely mismatched, and a **50%** chance of sharing one haplotype. This is why bone marrow donors are often sought among siblings.
 
+<figure style="text-align: center;">
+  <img src="{{ '/assets/posts/tcr-pmhc/HLA.png' | relative_url }}" alt="HLA genetic profile" style="max-width: 100%; height: auto;">
+  <figcaption style="color: #777; font-weight: bold; text-align: center;">
+    Figure 2: HLA genetic profile
+  </figcaption>
+</figure>
+
 ### 2. Epitope
 
 In this note, I use **epitope** as the default term. In many TCR-pMHC contexts, antigen, epitope, and peptide are sometimes used to refer to the same MHC-presented short peptide. Strictly speaking, antigen can refer to the larger source molecule, epitope is the specific part recognized by the immune receptor, and peptide emphasizes the short amino-acid chain physically loaded into the MHC groove.
@@ -107,13 +114,13 @@ In this note, I use **epitope** as the default term. In many TCR-pMHC contexts, 
 <figure style="text-align: center;">
   <img src="{{ '/assets/posts/tcr-pmhc/MHC1.png' | relative_url }}" alt="Epitope in the MHC binding groove" style="max-width: 100%; height: auto;">
   <figcaption style="color: #777; font-weight: bold; text-align: center;">
-    Figure 2: Epitope in the MHC binding groove
+    Figure 3: Epitope in the MHC binding groove
   </figcaption>
 </figure>
 
 ### 3. T Cell
 
-#### TCR (T Cell Receptor; see Figure 3)
+#### TCR (T Cell Receptor; see Figure 4)
 
 More than 95% of conventional T cells in the human body express **$\alpha\beta$ TCRs**. A smaller fraction express $\gamma\delta$ TCRs. Structural studies of TCR-pMHC recognition are summarized in [Rossjohn et al., 2015](https://doi.org/10.1146/annurev-immunol-032414-112334).
 
@@ -131,7 +138,7 @@ More than 95% of conventional T cells in the human body express **$\alpha\beta$ 
 <figure style="text-align: center;">
   <img src="{{ '/assets/posts/tcr-pmhc/tcr_on_member2.png' | relative_url }}" alt="TCR-CD3 complex on the cell membrane" style="max-width: 100%; height: auto;">
   <figcaption style="color: #777; font-weight: bold; text-align: center;">
-    Figure 3: TCR-CD3 complex on the cell membrane
+    Figure 4: TCR-CD3 complex on the cell membrane
   </figcaption>
 </figure>
 
@@ -162,13 +169,13 @@ $$\text{TCR }\beta\text{ chain recombination} = V_\beta + D_\beta + J_\beta$$
 <figure style="text-align: center;">
   <img src="{{ '/assets/posts/tcr-pmhc/vdj.png' | relative_url }}" alt="V(D)J recombination" style="max-width: 100%; height: auto;">
   <figcaption style="color: #777; font-weight: bold; text-align: center;">
-    Figure 4: V(D)J recombination
+    Figure 5: V(D)J recombination
   </figcaption>
 </figure>
 
 #### CD3 Family Composition and Structure
 
-As we saw earlier in cryo-EM structures, a complete **TCR-CD3 complex** (Figure 3) is a high-order octameric molecular machine. It is composed of one TCR dimer and three CD3 dimers that are tightly assembled.
+As we saw earlier in cryo-EM structures, a complete **TCR-CD3 complex** (Figure 4) is a high-order octameric molecular machine. It is composed of one TCR dimer and three CD3 dimers that are tightly assembled.
 
 * **$\text{CD3}\epsilon\gamma$ heterodimer**: composed of the $\epsilon$ chain (green) and the $\gamma$ chain (gray), located on one side of the TCR.
 * **$\text{CD3}\epsilon\delta$ heterodimer**: composed of the $\epsilon$ chain (green) and the $\delta$ chain (pink), located on the other side of the TCR.
@@ -178,7 +185,7 @@ As we saw earlier in cryo-EM structures, a complete **TCR-CD3 complex** (Figure 
 
 Many receptors affect T cell activation, including CD4, CD8, CD28, and CD25. Below, I mainly discuss $\alpha\beta$ $\text{CD8}^+$ T cells and signals transmitted through the TCR, because the diversity mainly comes from the TCR.
 
-### 1. MHC Presents Epitopes (Figure 5)
+### 1. MHC Presents Epitopes (Figure 6)
 
 First, TCRs can only recognize epitopes presented by MHC.
 
@@ -191,7 +198,7 @@ Memory trick: HLA-I pairs with $\text{CD8}^+$ T cells, and HLA-II pairs with $\t
 <figure style="text-align: center;">
   <img src="{{ '/assets/posts/tcr-pmhc/MHC_present_peptide.png' | relative_url }}" alt="MHC peptide-presentation process" style="max-width: 100%; height: auto;">
   <figcaption style="color: #777; font-weight: bold; text-align: center;">
-    Figure 5: MHC peptide-presentation process
+    Figure 6: MHC peptide-presentation process
   </figcaption>
 </figure>
 
@@ -209,7 +216,7 @@ At the microscopic structural level, most TCRs consist of an $\alpha$ chain and 
 <figure style="text-align: center;">
   <img src="{{ '/assets/posts/tcr-pmhc/tcr_detail.png' | relative_url }}" alt="TCR-pMHC complex" style="max-width: 100%; height: auto;">
   <figcaption style="color: #777; font-weight: bold; text-align: center;">
-    Figure 6: TCR-pMHC complex
+    Figure 7: TCR-pMHC complex
   </figcaption>
 </figure>
 
@@ -227,7 +234,7 @@ Therefore, a complete TCR-CD3 octamer carries **10 ITAM signaling modules** insi
 <figure style="text-align: center;">
   <img src="{{ '/assets/posts/tcr-pmhc/tcr_pmhc_complex.png' | relative_url }}" alt="TCR-CD3 complex bound to peptide-MHC I" style="max-width: 100%; height: auto;">
   <figcaption style="color: #777; font-weight: bold; text-align: center;">
-    Figure 7: TCR-CD3 Complex Bound to peptide-MHC I
+    Figure 8: TCR-CD3 Complex Bound to peptide-MHC I
   </figcaption>
 </figure>
 
