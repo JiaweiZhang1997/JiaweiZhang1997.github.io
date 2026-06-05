@@ -66,6 +66,7 @@ include:
   - _posts/assets
   - files
 exclude:
+  - _posts/demo
   - docs
   - google_scholar_crawler
   - "*.sublime-project"
