@@ -2,7 +2,7 @@
 layout: post
 title: "What Happens When AI Starts Recommending What Science Should Study"
 date: 2026-05-20 00:00:00 +0800
-author: Jiawei Zhang
+author: Jiawei Zhang and DeepSeek V4 Pro
 reading_time: 15 min
 ai_generated: true
 ai_tools: "DeepSeek V4 Pro, Codex MCP (GPT-5.4 xhigh), OpenAlex API"
